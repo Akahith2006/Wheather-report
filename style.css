@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  transition: background 0.5s ease-in-out;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4); /* dark overlay */
+  border-radius: 10px;
+  color: #ffffff; /* ensure text is white */
+}
+
+#weatherResult p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+img {
+  margin-top: 10px;
+}
